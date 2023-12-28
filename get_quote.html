@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <style>
+    span{
+        color: #18496B;
+    }
+    #breadcrumb {
+      background: url(assets/breadcrumb/mac.jpg);
+      background-size: cover;
+      background-position: center;
+      background-size: cover;
+      padding: 0;
+      color: white;
+    }
+    .blue-bg {
+      background-color: rgba(0, 0, 0, 0.749);
+      width: 100%;
+      height: 100%;
+      padding: 30px 0px;
+    }
+    #breadcrumb a {
+      text-decoration: none;
+      color: white;
+      margin-top: 10px;
+    }
+    #breadcrumb h3 {
+      color: #fff;
+      margin-top: 10px;
+    }
+    #breadcrumb p {
+      color: #fff;
+      margin-top: 10px;
+    }
+    .breadcrumb-item + .breadcrumb-item::before {
+      color: #fff;
+    }
+    .form{
+        background-color: #DCDBDB;
+    }
+    #form input ,select{
+        margin-bottom: 20px;
+        padding: 13px;
+    }
+    form select {
+      padding: 13px !important;
+      width: 100%;
+      border-radius: 10px;
+      border: none;
+      border-bottom: 1px solid rgba(128, 128, 128, 0.641);
+    }
+    #btn2{
+    margin-top: 20px;
+    background-color: #006DB7;
+    color: #fff;
+    transition: 1s;
+    }
+    #btn2:hover{
+        background-color: #333333;
+    }
+    #nameerror , #emailerror , #mobileerror , #companyerror{
+      color: red;
+    }
+  </style>
+  <body>
+    <section class="container-fluid" id="top-message">
+      <div class="container">
+        <div class="row mx-5">
+          <div class="col-lg-6">
+            <div class="d-flex text-white">
+              <p class=""><i class="fa fa-mobile"></i> +91 0000000000</p>
+              <p class="ms-3">
+                <i class="fa fa-paper-plane pe-1"></i>cruisesufiyan2@gmail.com
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6" id="hover">
+            <div class="text-end text-white">
+              <i class="fa fa-facebook"></i>
+              <i class="fa fa-linkedin ms-1"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <header class="container" id="navbar">
+      <div class="row mx-md-5">
+        <nav class="navbar navbar-expand-lg">
+          <div class="navbar-brand">
+            <a href="index.html"><img src="assets/logo.png" alt="" /></a>
+          </div>
+          <button
+            class="navbar-toggler d-lg-none"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse text-center justify-content-end me-5"
+            id="collapsibleNavId"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link pe-4 active" href="covid_safety.html"
+                  >Covid Safety</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pe-4" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pe-4" href="about_us.html">ABOUT US</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link pe-4"
+                  href=""
+                  id="dropdownId"
+                  data-bs-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  >SERVICES</a
+                >
+                <div class="dropdown-menu bg-dark" aria-labelledby="dropdownId">
+                  <a class="dropdown-item text-white" href="employee_transport.html"
+                    >Employee Transportation</a
+                  >
+                  <a class="dropdown-item text-white" href="corporate_car.html">Corporate Car</a>
+                  <a class="dropdown-item text-white" href="airport_transfer.html"
+                    >Airport Transfer</a
+                  >
+                  <a class="dropdown-item text-white" href="monthly_rental.html">Monthy Rental</a>
+                  <a class="dropdown-item text-white" href="safety_standards.html"
+                    >Safety Standard of ICabs</a
+                  >
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pe-4" href="fleet.html">FLEET</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pe-4" href="career.html">CAREERS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pe-4" href="get_quote.html">GET A QUOTE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pe-4" href="contact_us.html">CONTACT US</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <section class="container-fluid" id="breadcrumb">
+      <div class="blue-bg">
+        <div class="container">
+          <div class="row mx-md-5">
+            <div class="col-md-6">
+              <h3>Free Quotation</h3>
+            </div>
+            <div class="col-md-6">
+              <nav class="breadcrumb d-flex justify-content-end">
+                <a class="breadcrumb-item" href="index.html">Home</a>
+                <p class="breadcrumb-item">Free Quotation</p>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container py-4" id="form">
+        <div class="row ">
+            <div class="col-6 mx-auto">
+                <div class="form p-4">
+                    <form action="" onsubmit="return validation()">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <input type="text" name="" id="name" placeholder="Name" class="form-control" >
+                                <div id="nameerror" class="mb-3"></div>
+                            </div>
+                            <div class="col-md-6">
+                                <input type="email" name="" id="email" placeholder="Email id" class="form-control">
+                                <div id="emailerror" class="mb-3"></div>
+                            </div>
+                            <div class="col-md-6">
+                                <input type="tel" name="" id="mobile" placeholder="Phone No." class="form-control" maxlength="10"> 
+                                <div id="mobileerror" class="mb-3"></div>
+                            </div>
+                            <div class="col-md-6">
+                                <input type="text" name="" id="company" placeholder="Company Name" class="form-control">
+                                <div id="companyerror" class="mb-3"></div>
+                            </div>
+                            <div class="col-md-12">
+                                <select name="Select Service" value="Select Service" id="">
+                                    <option value="Select Services">Select Services</option>
+                                    <option value="employees transportation">employees transportation</option>
+                                    <option value="Corporate Car">Corporate Car</option>
+                                    <option value="Airport Transfer">Airport Transfer</option>
+                                    <option value="Monthly Rental">Monthly Rental</option>
+                                    <option value="Enquiry">Enquiry</option>
+                                </select>
+                            </div>
+                            <div class="col-md-12">
+                                <textarea name="" id="" cols="30" rows="10" placeholder="Message" class="form-control"></textarea>
+                            </div>
+                            
+                        </div>
+                        <input type="submit" id="btn2" value="Send Message" class="form-control">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="container-fluid py-4" id="footer">
+      <div class="container">
+        <div class="row mx-md-5">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+            <h5 class="color2">ABOUT US</h5>
+            <p>
+              iCabs Transport Solution is the largest transportation company in
+              Telangana for working professionals. We started this
+              transportation service with the aim to exceed customer
+              expectation.
+            </p>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+            <h5 class="color2">Services</h5>
+            <div><i class="bi bi-arrow-right-short"></i><a href="employee_transport.html">Employee Transportation</a></div>
+            <div><i class="bi bi-arrow-right-short"></i><a href="corporate_car.html">Corporate Car</a></div>
+            <div><i class="bi bi-arrow-right-short"></i><a href="airport_transfer.html">Airport Transfer</a></div>
+            <div><i class="bi bi-arrow-right-short"></i><a href="monthly_rental.html">Monthly Rental</a></div>
+            <div><i class="bi bi-arrow-right-short"></i><a href="safety_standards.html">Safety Standards of ICabs</a></div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+            <h5 class="color2">Contact Us</h5>
+            <div class="d-flex">
+              <i class="bi bi-geo-alt-fill"></i>
+              <p class="ms-4">
+                iCabs Transport Solutions Flat No. 107, Lake view Apartments,
+                Kondapur Road, Khanamet, Kothaguda, Hyderabad, Telangana. India
+                - 500081
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+            <h5 class="color2">Reach Us</h5>
+            <div class="d-flex">
+              <i class="bi bi-telephone-fill pe-2"></i>
+              <p>+91 9506519510</p>
+            </div>
+            <div class="d-flex">
+              <i class="bi bi-phone pe-2"></i>
+              <p>+91 7007946281</p>
+            </div>
+            <div class="d-flex">
+              <i class="bi bi-envelope pe-2"></i>
+              <p>danish0ahmad@gmail.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <section class="container-fluid" id="btm-part">
+      <div class="container">
+        <div class="row mx-md-5">
+          <h6>Copyright © 2020 iCabs Transport Solution.</h6>
+        </div>
+      </div>
+    </section>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script>
+      function validation(){
+        let username = document.getElementById("name").value;
+        let email = document.getElementById("email").value;
+        let mobile = document.getElementById("mobile").value;
+        let company = document.getElementById("company").value;
+
+        let nameStatus = false;
+        let emailStatus = false;
+        let mobileStatus = false;
+        let companyStatus = false;
+        let charExp = /^[a-zA-z]+$/
+        let numExp = /^[0-9]+$/
+        
+
+        if(username === ""){
+          document.getElementById("nameerror").innerHTML = "Please enter Name *"
+        }else{
+          if(username.match(charExp)){
+            document.getElementById("nameerror").innerHTML = ""
+            nameStatus = true;
+          }else{
+            document.getElementById("nameerror").innerHTML = "Please Enter Characters Only *"
+          }
+        }
+
+        if(email === ""){
+          document.getElementById("emailerror").innerHTML = "Please Enter Email Id *"
+        }
+        else{
+          document.getElementById("emailerror").innerHTML = ""
+          emailStatus = true;
+        }
+
+        if(mobile === ""){
+          document.getElementById("mobileerror").innerHTML = "Please Enter Mobile Number *"
+        }
+        else{
+          if(mobile .match(numExp)){
+            if(mobile.length == 10){
+              document.getElementById("mobileerror").innerHTML = ""
+              mobileStatus =true;
+            }else{
+              document.getElementById("mobileerror").innerHTML = "Please Enter 10 digit Mobile Number *"
+            }
+          }else{
+            document.getElementById("mobileerror").innerHTML = "Please Enter Numbers Only *"
+          }
+        }
+
+        if(company === ""){
+          document.getElementById("companyerror").innerHTML = "Please Enter Company Name *"
+        }else{
+          document.getElementById("companyerror").innerHTML = "";
+          companyStatus = true;
+        }
+
+
+
+
+        if(nameStatus === true && emailStatus === true && mobileStatus === true && companyStatus === true){
+          return true;
+        }else{
+          return false;
+        }
+      }
+    </script>
+  </body>
+</html>
